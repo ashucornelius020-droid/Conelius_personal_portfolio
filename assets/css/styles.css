@@ -1,0 +1,300 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+AU+QLD:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+ padding: 0;
+ margin: 0;
+ font-size: 17px;
+ font-family: "Open Sans","Roboto", Arial, Helvetica, sans-serif;
+ 
+}
+
+.my-portfolio{
+    flex-direction: row;
+}
+
+
+.items-center{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.flex{
+    display: flex;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+.logo{
+    font-family: "Playwrite AU QLD";
+}
+
+
+.container{
+   
+    width: 85%;
+    
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menus{
+    display: flex;
+    gap: 50px;
+
+
+}
+.menus a:hover{
+    color: green;
+}
+
+.menus a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+
+.phone1{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    background-color: white;
+     
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    align-items: center; /*postions on the Y axis*/
+    justify-content: center; /*postions on the x axis*/
+}
+
+ .main_caption h1{
+    font-size:4.3rem;
+    width: 500px;
+    line-height: 1.1;
+}
+ .main_caption h2{
+    font-size:3rem;
+
+    line-height: 1.1;
+}
+.main_caption a{
+    color: red;
+}
+.section_2 .main_caption{
+    gap:1rem ;
+}
+
+.experience div{
+ font-weight: 500;
+ line-height: 1.1;
+}
+
+.addons{
+   gap:1.5rem ;
+}
+.addons span{
+    font-weight: 600;
+}
+
+
+.main_image{
+    height: 100px;
+    width: 500px;
+  
+    
+}
+
+
+
+.section_1, .section_2{
+    height: 30vh;
+
+}
+ 
+
+
+.group_1{
+    background-color: rgba(248, 233, 213, 0.303);
+    position: relative;
+}
+
+.main_image img{
+    object-fit: contain;
+    height: 750px;
+    position: absolute;
+    top: 12rem;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.text1{
+    border: none;
+    flex-direction: column;
+    align-items: start;
+    width: 480px;
+    height: 500px;
+    margin: 38px;
+    
+
+}
+
+.text1 button{
+    font-weight: bold;
+    line-height: 1.5;
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+    border: 0;
+   
+}
+
+.text1 button p{
+    font-weight: 27;
+}
+
+.logs{
+    margin: 25px;
+    width: 30rem;
+    height: 200px;
+}
+.text1 .logs span span i{ 
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    left: 19%;
+    background-color: rgba(7, 90, 7, 0.874);
+     
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
+    align-items: center; /*postions on the Y axis*/
+    justify-content: center;
+}
+
+.text1 .logs  .button .gear{
+    background-color: blue;
+}
+
+
+
+.text2{
+
+    border: none;
+    flex-direction: column;
+    align-items: start;
+    width: 480px;
+    height: 500px;
+    margin: 38px;
+}
+.text2 .status{
+    padding: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    gap: 50px;
+
+}
+
+.notes{
+    flex-direction: column;
+    gap: 18px;
+}
+
+.section-3{
+    gap: 30%;
+}
+
+.text2 h2{
+    font-size:3rem;
+
+    line-height: 1.1; 
+}
+
+.work-experience{
+ 
+    flex-direction: row;
+    align-items: start;
+    width: 500px;
+    height: 500px;
+    margin: 38px;
+    gap:18%;
+}
+
+.w-e1{
+ 
+    flex-direction: column;
+    gap: 15%;
+    height: 500px;
+    width: 1000px;
+}
+
+.w-e1 span{
+    font-weight: bold;
+}
+
+.w-e1 span p{
+    font-weight: 3;
+}
+
+.w-e2{
+    flex-direction: column;
+    gap: 4%;
+     height: 500px;
+    width: 1000px;
+}
+
+
+
+
+
+
+
+
+
+.mt-1{
+    margin-top: 2rem;
+}
+.mt-2{
+    margin-top: 4rem;
+}
+.mt-3{
+    margin-top: 6rem;
+}
+.mt-4{
+    margin-top: 8rem;
+}
+
+.mr-2{
+    margin-right: 4rem;
+}
+.pt-1{
+    padding-top: 2rem;
+}
+.pt-2{
+    padding-top: 4rem;
+}
+.pt-3{
+    padding-top: 6rem;
+}
+.pt-4{
+    padding-top: 8rem;
+}
+
+.pb-1{
+    padding-bottom: 2rem;
+}
+.pb-2{
+    padding-bottom: 4rem;
+}
+.pb-3{
+    padding-bottom: 6rem;
+}
+.pb-4{
+    padding-bottom: 8rem;
+}
