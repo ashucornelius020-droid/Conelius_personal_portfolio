@@ -1,0 +1,74 @@
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: full;
+    height: 800px;
+    gap: 12px;
+    background-color: rgba(248, 233, 213, 0.303);
+}
+
+.work-experience{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 600px;
+    height: auto;
+    gap:18%;
+
+}
+
+.w-e1{
+ 
+    flex-direction: column;
+    gap: 15%;
+    height: 500px;
+    width: 1000px;
+}
+
+.w-e1 span{
+    font-weight: bold;
+}
+
+.w-e1 span p{
+    font-weight: 3;
+}
+
+.w-e2{
+    flex-direction: column;
+    gap: 4%;
+     height: 500px;
+    width: 1000px;
+}
+
+.va1{
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 58%;
+    height: 90%;
+    border-radius: 10px;
+}
+
+.logs .va1 .laptop i{
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.head h2{
+    font-weight: bolder;
+    font-size: 35px;
+}

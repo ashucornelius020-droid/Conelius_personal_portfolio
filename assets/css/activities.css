@@ -8,6 +8,13 @@ h2{
     margin-top: 12px;
     font-size: 40px;
 }
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .first-sec{
     display: flex;
     flex-direction: row;
