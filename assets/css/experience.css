@@ -1,5 +1,8 @@
+* {
+    font-family: "Open Sans", "Roboto", Arial, Helvetica, sans-serif;
+}
 
-.wrapper{
+.wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -10,40 +13,40 @@
     background-color: rgba(248, 233, 213, 0.303);
 }
 
-.work-experience{
+.work-experience {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 600px;
     height: auto;
-    gap:18%;
+    gap: 18%;
 
 }
 
-.w-e1{
- 
+.w-e1 {
+
     flex-direction: column;
     gap: 15%;
     height: 500px;
     width: 1000px;
 }
 
-.w-e1 span{
+.w-e1 span {
     font-weight: bold;
 }
 
-.w-e1 span p{
+.w-e1 span p {
     font-weight: 3;
 }
 
-.w-e2{
+.w-e2 {
     flex-direction: column;
     gap: 4%;
-     height: 500px;
+    height: 500px;
     width: 1000px;
 }
 
-.va1{
+.va1 {
     background-color: rgb(235, 235, 235);
     display: flex;
     justify-content: center;
@@ -54,21 +57,21 @@
     border-radius: 10px;
 }
 
-.logs .va1 .laptop i{
+.logs .va1 .laptop i {
     font-size: x-large;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.head{
+.head {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 14px;
 }
 
-.head h2{
+.head h2 {
     font-weight: bolder;
     font-size: 35px;
 }
